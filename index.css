@@ -1,0 +1,127 @@
+div {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+
+background: #FFFFFF;
+}
+section {
+    margin-top: 40px;
+    border: solid inset black;
+}
+h1 {
+    position: absolute;
+    width: 273px;
+    height: 81px;
+    left: 52.2px;
+    top: 99.67px;
+    font-family: 'Noto Serif Oriya', serif;
+
+    
+   
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+    position: absolute;
+    width: 128px;
+    height: 80px;
+    left: 52px;
+    top: 19px;
+    
+    background: url(image.png);
+}
+p {
+    
+    position: absolute;
+    width: 307px;
+    height: 214px;
+    left: 46px;
+    top: 234px;
+
+    font-family: 'Noto Serif Oriya', serif;
+    font-size: 18px;
+
+
+color: #FFFFFF  ;
+}
+a {
+
+    box-sizing: border-box;
+    width: 28%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;   
+    position: absolute;
+    top: 85%;
+    left: 36%;
+    
+    
+    
+    
+
+    background-color: #FFFFFF;
+    border-radius: 67%;
+    
+    transition: background-color .2s;
+  
+}
+.card1 a:hover{
+  
+    background-color: skyblue;
+}
+.card2 a:active{
+    background-color: #bd8c06;
+}
+.card3 a:hover {
+    background-color: rgb(95, 49, 201);
+}
+.card1 {
+    margin-left: 40px;
+    box-sizing: border-box;
+
+    float: left;
+
+    position: relative;
+    width: 378px;
+    height: 726px;
+    
+    background: #BF1C1C;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+
+    
+}
+.card2 {
+    box-sizing: border-box;
+
+    float: left;
+
+    position: relative;
+    width: 378px;
+    height: 726px;
+
+    background: #441818;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+
+}
+.card3 {
+    box-sizing: border-box;
+
+    float: left;
+
+    position: relative;
+    width: 378px;
+    height: 726px;
+
+    background: #bd8c06;
+    border: 1px solid rgba(45, 117, 17, 0.1);
+    border-radius: 2px;
+}
